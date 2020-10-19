@@ -10,7 +10,7 @@ class CustomAppbarToggle extends StatelessWidget
 
   const CustomAppbarToggle(
       {Key key,
-      this.height = 57.0,
+      this.height = 68.0,
       this.leading,
       this.title,
       this.trailing,

@@ -1,5 +1,6 @@
 import 'package:feria_friki/src/friki_events/widgets/friki_events_list.dart';
 import 'package:feria_friki/src/shared/widgets/custom_appbar_toggle.dart';
+import 'package:feria_friki/src/shared/widgets/custom_tab.dart';
 import 'package:flutter/material.dart';
 import 'package:toggle_switch/toggle_switch.dart';
 
@@ -7,6 +8,7 @@ class EventsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      bottomNavigationBar: CustomTab(),
       appBar: CustomAppbarToggle(
         leading: Padding(
           padding: const EdgeInsets.only(left: 15.0),
